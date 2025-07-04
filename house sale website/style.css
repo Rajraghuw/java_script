@@ -1,0 +1,285 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header */
+  .header {
+    background: #b6b6b6;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Hero Section */
+  .hero {
+    background: url('https://intelmatix.ai/img/img_industrie_realestate.png') no-repeat center center/cover;
+    color: #fff;
+    height: 700px;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #f44336;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Services Section */
+  .services {
+    padding: 50px 0;
+    background: #f4f4f4;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .service-box div {
+    background: #fff;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Properties Page */
+  .properties {
+    padding: 50px 0;
+  }
+  
+  .property-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .property-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .property-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+.property-card img:hover{
+  height: 250px;
+
+
+
+
+
+    q;'
+    l'
+    '
+    ;'
+    
+    
+    
+    ++++++++++++++
+    '
+  width: 400px;
+}
+
+  .property-card h3 {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+  
+  .property-card .price {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f44336;
+    font-weight: bold;
+  }
+
+  /* Contact Page */
+.contact {
+    padding: 50px 0;
+    background: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .contact p {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .contact-form button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* New Stylish Footer */
+  .footer {
+    background: #222;
+    color: #ccc;
+    padding: 40px 0 10px;
+    font-size: 14px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-column h3, .footer-column h4 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #f44336;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+    font-size: 13px;
+  }
+  
+
+  /* purchase form css------>>> */
+
+
+  .purchase-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.purchase-form input,
+.purchase-form select,
+.purchase-form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.purchase-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
