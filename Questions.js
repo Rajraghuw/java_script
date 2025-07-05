@@ -54,3 +54,19 @@
 
 
 
+
+// creat a function to return vouwels from a string.
+
+const vouwels = (str) => {
+    let count = 0;
+    for (let i of str){
+        if(i==="a" || i==="e" || i==='i' || i==='o' || i==='u'){
+            console.log(i);
+            count++;
+        }
+    }
+    return count;
+}
+
+let str = vouwels("raja raghuwanshi");
+document.write("Total vouwels in the string: " + str); //output: Total vouwels in the string: 6
