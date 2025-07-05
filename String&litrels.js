@@ -2,7 +2,8 @@
 // let name = 'raja raghuwanshi';     //single quotes
 // let name = `raja raghuwanshi`;      //backticks , spatial characters
 
-
+// String inmutable hote hai ya ni ki unhe change nahi kiya ja sakta hai
+// String ko change karne ke liye hume naya string banana padta hai
 
 let name = "raja raghuwanshi";
 
