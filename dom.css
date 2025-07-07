@@ -7,5 +7,23 @@
     align-items: center;
     justify-content: center;
 }
+body{
+    font-family: Arial, sans-serif;
+    background-color: #3a0505;
+    margin: 0;
+    padding: 20px;
+    
+}
 
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
 
+}

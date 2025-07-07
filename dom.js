@@ -82,4 +82,27 @@ changeText.innerHTML = "<i>My name is raja raghuwanshi and i am a web developer.
 let textContent = document.querySelector(".container").textContent;
 console.dir(textContent);
 
-// Quention : creat a h2 hedding element with text 
+// Quention : creat a h2 hedding element with text - "Hello Java script" .append "from cybrom student" to this text using js
+
+let h2=document.querySelector(".h2");
+console.log(h2.innerText);
+
+h2.innerText = h2.innerText + " from cybrom student";  // 2 string ko + karne ko ham concatenation kehte hai
+
+// Quention 2 : create 3 div with common class - "box" and add some text to each div using js
+
+let boxes = document.querySelectorAll(".box");
+console.dir(boxes);
+
+// boxes[0].innerText = "This is a box 1";
+// boxes[1].innerText = "This is a box 2";
+// boxes[2].innerText = "This is a box 3";
+
+// use for loop --->>
+
+for (let i = 0; i < boxes.length; i++) {
+    boxes[i].innerText = `this is a box ${i+1}`
+}
+
+
+
