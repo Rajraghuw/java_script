@@ -105,4 +105,65 @@ for (let i = 0; i < boxes.length; i++) {
 }
 
 
+// getAttribute is used to get the value of an attribute of an element
+// isse ham kisi bhi element ke attribute ki value ko print kra sakte hai jese hamne kisi div ya kisi v node me koi class ya id ya 
+// koi v attribute diya ho to uski value ko print kra sakte hai
+
+let firstDiv = document.querySelector(".box");
+firstDiv.getAttribute("class"); // isse ham class ki value ko print kra sakte hai
+console.log(firstDiv.getAttribute("class"));
+
+// setAttribute is used to set the value of an attribute of an element
+// isse ham kisi bhi element ke attribute ki value ko set kar sakte hai jese hamne kisi div ya kisi v node me koi class ya id ya
+// koi v attribute diya ho to uski value ko change kar sakte hai
+
+firstDiv.setAttribute("class", "new-box"); // isse ham class ki value ko change kar sakte hai
+console.log(firstDiv.getAttribute("class")); // new-box
+
+// style is used to get the style of an element 
+// style se ham kisi bhi element ke style ko change kar sakte hai or print kra sakte hai 
+
+let firstBox = document.querySelector(".box1");
+// firstBox.style.backgroundColor = "red"; // isse ham background color ko change kar sakte hai
+firstBox.style.color = "white"; // isse ham text color ko change kar sakte hai
+firstBox.style.height = "200px"; // isse ham width ko change kar sakte hai
+
+console.log(firstBox.style);
+
+// firstBox.style.visibility = "hidden"; // isse ham element ko hidden kar sakte hai
+
+
+// ab hame apne html page par koi bhi element ko add karna hai to uske liye hame createElement ka use karna padega
+// createElement is used to create a new element
+// jese hamne div banaya hai us div me last me ak button add karna hai to uske liye pehle hame button ko creat karna padega
+// createlement ki help se fir use div ke andar append karna padega 
+
+let button = document.createElement("button") // isse ham button element ko create kar rahe hai
+button.innerText = "Click Me"; // isse ham button ke andar text ko set kar rahe hai
+button.setAttribute("class", "btn"); // isse ham button ke class ko set kar rahe hai
+console.dir(button); // isse ham button ko console me dekh sakte hai
+
+// ab hame is button ko kisi div ke andar append karna hai to uske liye hame appendChild ka use karna padega
+let box1 = document.querySelector(".box1"); // isse ham box1 ko select kar rahe hai
+box1.append(button); // isse ham button ko box1 ke andar append kar rahe hai
+
+//####### prepend ka use ham kisi bhi element ko kisi div ke andar pehle se hi content ke pehle add karne ke liye karte hai
+
+//####### before ka use ham tb karte hai jab hame element ko div se just pehle add karna ho 
+
+//####### after ka use ham tb karte hai jab hame element ko div se just baad me add karna ho
+
+//####### remove ka use ham kisi bhi element ko remove karne ke liye karte hai
+
+//####### replaceWith ka use ham kisi bhi element ko replace karne ke liye karte hai
+
+
+// Question : hame ak new css banani hai or use kisi bhi element par apply karna hai
+// iske liye hame pehle css file ko create karna padega or fir us element ko access karke uspr css apply karni hai with the help of 
+// ClassList.add property to add the class
+// classList.remove property to remove the class
+
+newCss = document.querySelector(".box1");
+
+newCss.classList.add("newBox1"); // isse ham newBox1 class ko box1 ke andar add kar rahe hai
 
