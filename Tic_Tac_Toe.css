@@ -16,22 +16,26 @@ body{
 }
 
 .game{
-    height: 60vh;
+    height: 70vh;
     width: 60vh;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 8px;
+    
+   
 }
 .box{
+    background-color: white;
+    margin-top: 20px;
     height: 18vh;
     width: 18vh;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-    background-color: azure;
     font-size: 60px;
     color: brown;
+    
 }
 
 .reset-btn{

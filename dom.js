@@ -15,7 +15,7 @@
 
 // let paragraphs = document.getElementsByTagName("p");
 // console.log(paragraphs);
-// console.dir(paragraphs);
+// console.dir(paragraphs); 
 
 // querySelector is used to select the first element that matches the CSS selector
 // querySelector me ham kisi bhi tage ka name or class name ya id name se select kar sakte hain
